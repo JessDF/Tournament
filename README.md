@@ -1,10 +1,10 @@
 # Tournament
 Udacity Full Stack Developer Nanodegree - Project 4: Swiss System Tournament
 
-SETUP
+_SETUP_
 
 This program is created and run on a virtual machine using vagrant.
-If you don't already have your database created, navigate to the tournament folder (Using Git Bash/ a command line), then type "psql" and enter The following:
+If you don't already have your database created, navigate to the tournament folder (using Git Bash/ a command line), then type "psql" and enter The following:
 
     CREATE database tournament
 
