@@ -32,4 +32,4 @@ create view rankings as select id, name,
   left join matches as matches1 on players.id = matches1.winner
   left join matches as matches2 on players.id = matches2.loser
     or players.id = matches2.winner
-group by players.id order by wins desc;
+  group by players.id order by wins desc;
